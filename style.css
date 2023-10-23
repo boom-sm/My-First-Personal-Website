@@ -74,3 +74,14 @@ main {
     background-color: rgb(178, 178, 184);
     border-radius: 10px;
 }
+#zoo {
+    width: 110px;
+    float: right;
+    padding: 10px;
+}
+#food {
+    width: 160px;
+    float: right;
+    padding: 10px;
+    
+}
