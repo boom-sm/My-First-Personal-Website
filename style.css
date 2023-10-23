@@ -1,6 +1,76 @@
+.name {
+    font-style: oblique;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 0px rgb(162, 156, 176);;
+    text-align: center;
+    border: 6px solid rgb(60, 60, 70);
+    border-radius: 10px;
+    box-shadow: 15px rgb(49, 52, 34);
+    background-color: rgb(178, 178, 184);
+}
 #picture {
-    width: 200px;
+    width: 250px;
+    border: s;
+    padding-top: 20px; 
+}
+#h {
+    margin-right: 10px;
+    border: 6px solid rgb(60, 60, 70);
+    background-color: rgb(178, 178, 184);
+    border-radius: 10px;
+}
+.SPS {
+    text-decoration: underline;
+}
+#homepage-nav a {
+    color: black;
+}
+#aboutpage-nav a {
+    color: black;
+}
+#portfoliopage-nav a {
+    color: black;
+}
+#basketball {
+    width: 160px;
+    float: right;
+    padding: 15PX;
+    padding-top: 35px;
+}
+#gym {
+    width: 160px;
+    float: right;
+    padding: 15px;
+}
+#travel {
+    width: 180px;
+    float: right;
+    padding: 15px;
+    padding-top: 40px;
+}
+.top3 {
+    padding-left: 5px;
+    text-decoration: underline;
+}
+.hobbies {
+    margin-right: 10px;
+    border: 6px solid rgb(60, 60, 70);
+    background-color: rgb(178, 178, 184);
+    border-radius: 10px;
+}
+.pp {
+    padding-left: 5px;
+}
+#h {
+   text-align: center;
 }
 .body0 {
     background-color: gray;
+}
+main {
+    padding-left: 5px;
+    margin-right: 10px;
+    border: 6px solid rgb(60, 60, 70);
+    background-color: rgb(178, 178, 184);
+    border-radius: 10px;
 }
