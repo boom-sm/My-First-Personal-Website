@@ -5,6 +5,7 @@
     text-align: center;
     border: 6px solid rgb(60, 60, 70);
     border-radius: 10px;
+    padding: 30px;
     box-shadow: 15px rgb(49, 52, 34);
     background-color: rgb(178, 178, 184);
 }
@@ -67,12 +68,16 @@
 .body0 {
     background-color: gray;
 }
-main {
+.main1 {
     padding-left: 5px;
     margin-right: 10px;
+    padding: 15px;
     border: 6px solid rgb(60, 60, 70);
     background-color: rgb(178, 178, 184);
     border-radius: 10px;
+    z-index: 1;
+    position: relative;
+
 }
 #zoo {
     width: 110px;
@@ -82,6 +87,17 @@ main {
 #food {
     width: 160px;
     float: right;
-    padding: 10px;
+    bottom: 30px;
+    z-index: 2;
+    position: relative;
     
+}
+.main2 {
+    text-align: center;
+    text-decoration: underline;
+    padding-left: 5px;
+    padding-bottom: 25px;
+    border: 6px solid rgb(60, 60, 70);
+    background-color: rgb(178, 178, 184);
+    border-radius: 10px;
 }
