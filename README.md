@@ -14,4 +14,6 @@ i added the hover on the home, about, portfolio, and contact button.
 
 i added grid in portfolio page and added proportional units
 
+i added z-index and boxsizing in the css
+
 link to deployment:https://boom-sm.github.io/My-First-Personal-Website/

@@ -1,126 +1,276 @@
-.name {
-    font-style: oblique;
-    color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 0px rgb(162, 156, 176);;
-    text-align: center;
-    border: 6px solid rgb(60, 60, 70);
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 15px rgb(49, 52, 34);
-    background-color: rgb(178, 178, 184);
-}
-#picture {
-    width: 250px;
-    border: s;
-    padding-top: 20px; 
-}
-#h {
-    margin-right: 10px;
-    border: 6px solid rgb(60, 60, 70);
-    background-color: rgb(178, 178, 184);
-    border-radius: 10px;
-}
-.SPS {
-    text-decoration: underline;
-}
-#homepage-nav a {
-    color: black;
-    background-color: rgb(178, 178, 184);
-    border: 6px solid rgb(60, 60, 70);
-    border-radius: 10px;
-    text-decoration: none;
-    padding: 7px;
-    margin: 1vh;
-
-}
-#basketball {
-    width: 160px;
-    float: right;
-    padding: 15PX;
-    padding-top: 35px;
-}
-#gym {
-    width: 160px;
-    float: right;
-    padding: 15px;
-}
-#travel {
-    width: 180px;
-    float: right;
-    padding: 15px;
-    padding-top: 40px;
-}
-.top3 {
-    padding-left: 5px;
-    text-decoration: underline;
-}
-.hobbies {
-    margin-right: 10px;
-    border: 6px solid rgb(60, 60, 70);
-    background-color: rgb(178, 178, 184);
-    border-radius: 10px;
-}
-
-.pp {
-    padding-left: 5px;
-}
-#h {
-   text-align: center;
-}
-.body0 {
-    background-color: gray;
-}
-#head03 {
-    text-align: center;
-    text-decoration: underline;
-}
-.portfolio {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 5vh;
-    grid-row-gap: 5vh;
-    padding-left: 20vh;
-    align-items: center;
+@media screen and (max-width: 1680px),
+(max-height: 1050px) {
+    .name {
+        font-style: oblique;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 0px rgb(162, 156, 176);
+        text-align: center;
+        border: 6px solid rgb(60, 60, 70);
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 15px rgb(49, 52, 34);
+        background-color: rgb(178, 178, 184);
+        z-index: 1;
+        position: relative;
+        top: 1vh;
     }
-    
-  .div1 {
-      padding: 50px;
-      border: 6px solid rgb(60, 60, 70);
-      background-color: rgb(178, 178, 184);
-      border-radius: 10px;
-  }
-  #zoo { 
-      width: 420px;
-      padding: 15px;
-      height: 30vh;
-      border: 6px solid rgb(60, 60, 70);
-      background-color: rgb(178, 178, 184);
-      border-radius: 10px;
-  }
-  .div3 { 
-      padding: 50px;
-      border: 6px solid rgb(60, 60, 70);
-      background-color: rgb(178, 178, 184);
-      border-radius: 10px;
-  }
-  #food { 
-      width: 420px;
-      padding: 10px;
-      height: 34vh;
-      border: 6px solid rgb(60, 60, 70);
-      background-color: rgb(178, 178, 184);
-      border-radius: 10px;
-  }
-.main2 {
-    text-align: center;
-    text-decoration: underline;
-    padding-left: 5px;
-    padding-bottom: 25px;
-    border: 6px solid rgb(60, 60, 70);
-    background-color: rgb(178, 178, 184);
-    border-radius: 10px;
+
+    #picture {
+        width: 250px;
+        border: s;
+        padding-top: 20px;
+    }
+
+    #h {
+        margin-right: 10px;
+        border: 6px solid rgb(60, 60, 70);
+        background-color: rgb(178, 178, 184);
+        border-radius: 10px;
+        text-align: center;
+        z-index: 1;
+        position: relative;
+        left: 25%;
+        top: 1vh;
+        box-sizing: border-box;
+        width: 50%;
+        padding: 2vh;
+    }
+
+    .SPS {
+        text-decoration: underline;
+    }
+
+    #homepage-nav a {
+        color: black;
+        background-color: rgb(178, 178, 184);
+        border: 6px solid rgb(60, 60, 70);
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 7px;
+        margin: 1vh;
+        z-index: 2;
+        position: relative;
+        top: 1.5vh;
+    }
+
+    #top3 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .hobbies {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        padding-left: 18vh;
+        z-index: 1;
+        position: relative;
+        top: 2vh;
+    }
+
+    .div1 {
+        padding: 85px;
+        border: 6px solid rgb(60, 60, 70);
+        background-color: rgb(178, 178, 184);
+        border-radius: 10px;
+    }
+
+    #basketball {
+        width: 50vh;
+        height: 88.5%;
+        padding: 20px;
+        border: 6px solid rgb(60, 60, 70);
+        background-color: rgb(178, 178, 184);
+        border-radius: 10px;
+    }
+
+    .div3 {
+        padding: 85px;
+        border: 6px solid rgb(60, 60, 70);
+        background-color: rgb(178, 178, 184);
+        border-radius: 10px;
+    }
+
+    #gym {
+        width: 50vh;
+        height: 88.5%;
+        padding: 20px;
+        border: 6px solid rgb(60, 60, 70);
+        background-color: rgb(178, 178, 184);
+        border-radius: 10px;
+    }
+
+    .div5 {
+        padding: 85px;
+        border: 6px solid rgb(60, 60, 70);
+        background-color: rgb(178, 178, 184);
+        border-radius: 10px;
+    }
+
+    #travel {
+        width: 50vh;
+        height: 88.5%;
+        padding: 20px;
+        border: 6px solid rgb(60, 60, 70);
+        background-color: rgb(178, 178, 184);
+        border-radius: 10px;
+    }
+
+    .body0 {
+        background-color: gray;
+    }
+
+    #head03 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .portfolio {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 5vh;
+        grid-row-gap: 5vh;
+        padding-left: 20vh;
+        align-items: center;
+    }
+
+    .div1 {
+        padding: 50px;
+        border: 6px solid rgb(60, 60, 70);
+        background-color: rgb(178, 178, 184);
+        border-radius: 10px;
+    }
+
+    #zoo {
+        width: 420px;
+        padding: 15px;
+        height: 20vh;
+        border: 6px solid rgb(60, 60, 70);
+        background-color: rgb(178, 178, 184);
+        border-radius: 10px;
+    }
+
+    .div3 {
+        padding: 50px;
+        border: 6px solid rgb(60, 60, 70);
+        background-color: rgb(178, 178, 184);
+        border-radius: 10px;
+    }
+
+    #food {
+        width: 432px;
+        padding: 10px;
+        height: 21vh;
+        border: 6px solid rgb(60, 60, 70);
+        background-color: rgb(178, 178, 184);
+        border-radius: 10px;
+    }
+
+    .main2 {
+        text-align: center;
+        text-decoration: underline;
+        padding-left: 5px;
+        padding-bottom: 25px;
+        border: 6px solid rgb(60, 60, 70);
+        background-color: rgb(178, 178, 184);
+        border-radius: 10px;
+    }
+
+    a.hover1:hover,
+    a.hover1:active {
+        font-size: 125%;
+    }
 }
-a.hover1:hover, a.hover1:active {
-    font-size: 125%;
+
+@media screen and (max-width: 1024px),
+(max-height:768px) {
+    .hobbies {
+        padding-left: 6vh;
+    }
+
+    .div1,
+    .div3,
+    .div5 {
+        padding: 3%;
+        text-align: center;
+    }
+
+    #basketball {
+        height: 86%;
+    }
+
+    #gym {
+        height: 86%;
+    }
+
+    #travel {
+        height: 86%;
+    }
+
+    #zoo {
+        width: 276px;
+        height: 33.4vh;
+    }
+
+    #food {
+        width: 290px;
+        padding: 14px;
+    }
+}
+
+@media screen and (max-width:390px),
+(max-height:844) {
+    .hobbies {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+        padding: 0;
+    }
+
+    .portfolio {
+        display: grid;
+        grid-row-gap: 5vh;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+        padding: 0%;
+    }
+
+    #zoo {
+        width: 89%;
+    }
+
+    #food {
+        width: 40vh;
+    }
+
+    a.hover1:hover,
+    a.hover1:active {
+        font-size: 105%;
+    }
+
+    .div1,
+    .div3,
+    .div5 {
+        box-sizing: border-box;
+        width: 100%
+    }
+
+    #basketball {
+        box-sizing: border-box;
+        width: 100%
+    }
+
+    #travel {
+        box-sizing: border-box;
+        width: 100%
+    }
+
+    #gym {
+        box-sizing: border-box;
+        width: 100%
+    }
 }
