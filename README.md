@@ -10,7 +10,7 @@ i added javascript to say "Hello World"
 
 i added contact page in personal website
 
-i added the hover on the home, about, portfolio, and contact botton.
+i added the hover on the home, about, portfolio, and contact button.
 
 i added grid in portfolio page and added proportional units
 
