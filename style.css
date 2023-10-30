@@ -26,6 +26,14 @@
         border: 6px solid rgb(60, 60, 70);
         background-color: rgb(178, 178, 184);
         border-radius: 10px;
+        text-align: center;
+        z-index: 1;
+        position: relative;
+        left: 25%;
+        top: 1vh;
+        box-sizing: border-box;
+        width: 50%;
+        padding: 2vh;
     }
 
     .SPS {
@@ -44,10 +52,12 @@
         position: relative;
         top: 1.5vh;
     }
+
     #top3 {
         text-align: center;
         text-decoration: underline;
     }
+
     .hobbies {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -55,6 +65,9 @@
         grid-column-gap: 10px;
         grid-row-gap: 10px;
         padding-left: 18vh;
+        z-index: 1;
+        position: relative;
+        top: 2vh;
     }
 
     .div1 {
@@ -103,10 +116,6 @@
         border: 6px solid rgb(60, 60, 70);
         background-color: rgb(178, 178, 184);
         border-radius: 10px;
-    }
-
-    #h {
-        text-align: center;
     }
 
     .body0 {
@@ -175,40 +184,53 @@
         font-size: 125%;
     }
 }
-@media screen and (max-width: 1024px), (max-height:768px) {
+
+@media screen and (max-width: 1024px),
+(max-height:768px) {
     .hobbies {
         padding-left: 6vh;
     }
-    .div1, .div3, .div5{
+
+    .div1,
+    .div3,
+    .div5 {
         padding: 3%;
         text-align: center;
     }
+
     #basketball {
         height: 86%;
     }
+
     #gym {
         height: 86%;
     }
+
     #travel {
         height: 86%;
     }
+
     #zoo {
         width: 276px;
         height: 33.4vh;
     }
+
     #food {
         width: 290px;
         padding: 14px;
     }
 }
-@media screen and (max-width:390px), (max-height:844){
+
+@media screen and (max-width:390px),
+(max-height:844) {
     .hobbies {
         display: grid;
         grid-template-columns: 1fr;
         grid-row-gap: 10px;
         padding: 0;
     }
-    .portfolio{
+
+    .portfolio {
         display: grid;
         grid-row-gap: 5vh;
         align-items: center;
@@ -216,14 +238,39 @@
         grid-template-rows: none;
         padding: 0%;
     }
+
     #zoo {
         width: 89%;
     }
+
     #food {
         width: 40vh;
     }
+
     a.hover1:hover,
     a.hover1:active {
         font-size: 105%;
+    }
+
+    .div1,
+    .div3,
+    .div5 {
+        box-sizing: border-box;
+        width: 100%
+    }
+
+    #basketball {
+        box-sizing: border-box;
+        width: 100%
+    }
+
+    #travel {
+        box-sizing: border-box;
+        width: 100%
+    }
+
+    #gym {
+        box-sizing: border-box;
+        width: 100%
     }
 }
